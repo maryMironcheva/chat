@@ -4,8 +4,372 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/assets/styles/styles.css" />
+
+    <title>Chat</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img
+          class="header__background"
+          src="/images/header__background.jpg"
+          alt="header background"
+        />
+        <nav class="nav">
+          <div class="nav__list">
+            <div class="nav__list-item">
+              <img class="nav__list-icon" src="/images/Logo1.png" />
+            </div>
+            <div class="nav__list-item">
+              <img class="nav__list-icon" src="/images/Logo2.png" />
+            </div>
+            <div class="nav__list-item">
+              <img class="nav__list-icon" src="/images/Logo3.png" />
+            </div>
+            <div class="nav__list-item">
+              <img class="nav__list-icon" src="/images/Logo4.png" />
+            </div>
+            <div class="nav__list-item">
+              <img class="nav__list-icon" src="/images/Logo5.png" />
+            </div>
+            <div class="nav__list-item">
+              <img class="nav__list-icon" src="/images/Logo6.png" />
+            </div>
+            <div class="nav__list-item">
+              <img class="nav__list-icon" src="/images/Logo7.png" />
+            </div>
+          </div>
+          <div class="nav__add-button">
+            <img class="nav__list-icon" src="/images/+.png" />
+          </div>
+        </nav>
+        <div class="menu">
+          <div class="menu__container">
+            <div class="menu__header">
+              <h3 class="menu__header-title">Nomad List</h3>
+              <button class="menu__settings">
+                <img
+                  class="menu__settings-icon"
+                  src="/images/settingsIcon.png"
+                  alt="settings"
+                />
+              </button>
+            </div>
+            <button class="menu__all-treads">All treads</button>
+            <div class="menu__channels">
+              <div class="menu__channels-header">
+                <p>Channels</p>
+                <p>11</p>
+              </div>
+              <div class="menu__channels-list">
+                <button class="menu__channels-item"># general</button>
+                <button class="menu__channels-item"># support</button>
+                <button class="menu__channels-item"># marketing</button>
+                <button class="menu__channels-item"># thailand</button>
+                <button class="menu__channels-item"># bali</button>
+                <button class="menu__channels-item"># poland</button>
+                <button class="menu__channels-item"># australia</button>
+                <button class="menu__channels-item"># jobs</button>
+                <button class="menu__channels-item"># startups</button>
+                <button class="menu__channels-item"># italty</button>
+                <button class="menu__channels-item"># freelance</button>
+              </div>
+              <div class="menu__friends">
+                <div class="menu__friends-header">
+                  <p>Friends</p>
+                  <p>82</p>
+                </div>
+                <div class="menu__friends-list">
+                  <button class="menu__friends-item">
+                    <div class="menu__friends-status online"></div>
+                    <img class="menu__friends-icon" src="/images/f1.jpg" />
+                    Ornaldo Diggs
+                  </button>
+                  <button class="menu__friends-item">
+                    <div class="menu__friends-status online"></div>
+                    <img
+                      class="menu__friends-icon"
+                      src="/images/f2.jpg"
+                    />Carmen Velasco
+                  </button>
+                  <button class="menu__friends-item">
+                    <div class="menu__friends-status"></div>
+                    <img class="menu__friends-icon" src="/images/f3.jpg" />Marie
+                    Jensen
+                  </button>
+                  <button class="menu__friends-item">
+                    <div class="menu__friends-status"></div>
+                    <img class="menu__friends-icon" src="/images/f4.jpg" />Alex
+                    Lee
+                  </button>
+                  <button class="menu__friends-item">
+                    <div class="menu__friends-status"></div>
+                    <img class="menu__friends-icon" src="/images/f5.jpg" />
+                    Leo Gill
+                  </button>
+                  <button class="menu__friends-item">
+                    <div class="menu__friends-status online"></div>
+                    <img class="menu__friends-icon" src="/images/f1.jpg" />
+                    Ornaldo Diggs
+                  </button>
+                  <button class="menu__friends-item">
+                    <div class="menu__friends-status online"></div>
+                    <img
+                      class="menu__friends-icon"
+                      src="/images/f2.jpg"
+                    />Carmen Velasco
+                  </button>
+                  <button class="menu__friends-item">
+                    <div class="menu__friends-status"></div>
+                    <img class="menu__friends-icon" src="/images/f3.jpg" />Marie
+                    Jensen
+                  </button>
+                  <button class="menu__friends-item">
+                    <div class="menu__friends-status"></div>
+                    <img class="menu__friends-icon" src="/images/f4.jpg" />Alex
+                    Lee
+                  </button>
+                  <button class="menu__friends-item">
+                    <div class="menu__friends-status"></div>
+                    <img class="menu__friends-icon" src="/images/f5.jpg" />
+                    Leo Gill
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="chat">
+        <div class="chat__header">
+          <div class="chat__header-general">
+            <h3>#general</h3>
+          </div>
+          <div class="chat__header-info">
+            <div class="chat__header-members">1,093</div>
+            <div class="chat__header__input">
+              <input
+                type="text"
+                class="chat__header__input__field"
+                placeholder="Search..."
+              />
+              <button class="chat__header__input__button">
+                <img
+                  class="chat__header__input__icon"
+                  src="/images/input-search.png"
+                />
+              </button>
+            </div>
+            <button class="chat__header__notif">
+              <img
+                class="chat__header__notif__icon"
+                src="/images/notif_icon.png"
+              />
+            </button>
+            <div class="kebab__menu">
+              <div class="kebab__menu-item"></div>
+              <div class="kebab__menu-item"></div>
+              <div class="kebab__menu-item"></div>
+            </div>
+          </div>
+        </div>
+        <div class="dialogue">
+          <div class="dialogue__message">
+            <img class="dialogue__message__photo" src="/images/f1.jpg" />
+            <div class="dialogue__message__info">
+              <div class="dialogue__message__header">
+                <p class="dialogue__message__name">Orlando Diggs</p>
+                <p class="dialogue__message__time">6:38 PM</p>
+              </div>
+              <div class="dialogue__message__content">
+                <p class="dialogue__message__link">
+                  @pierrhack I did for 6 days in Iceland
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="dialogue__message__divider">
+            <div class="dialogue__message__line"></div>
+            <p class="dialogue__message__date">Monday, October 22nd</p>
+            <div class="dialogue__message__line"></div>
+          </div>
+          <div class="dialogue__message">
+            <img class="dialogue__message__photo" src="/images/f4.jpg" />
+            <div class="dialogue__message__info">
+              <div class="dialogue__message__header">
+                <p class="dialogue__message__name">Alex Lee</p>
+                <p class="dialogue__message__time">5:02 PM</p>
+              </div>
+              <div class="dialogue__message__content">
+                <p class="dialogue__message__text">
+                  Which country to visit next? This is a photo with my friends -
+                  celebrating in Bali 😎
+                </p>
+                <p class="dialogue__message__link">my-top-places.jpg</p>
+                <span class="dialogue__message__photo">
+                  <img
+                    class="dialogue__message__photo-bali"
+                    src="/images/messagePic.png"
+                  />
+                  <div class="dialogue__message__react">😍 3</div>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="dialogue__message__divider">
+            <div class="dialogue__message__line"></div>
+            <p class="dialogue__message__date">Yesterday</p>
+            <div class="dialogue__message__line"></div>
+          </div>
+          <div class="dialogue__message">
+            <img class="dialogue__message__photo" src="/images/f2.jpg" />
+            <div class="dialogue__message__info">
+              <div class="dialogue__message__header">
+                <p class="dialogue__message__name">Carmen Velasco</p>
+                <p class="dialogue__message__time">11:54 AM</p>
+              </div>
+              <div class="dialogue__message__content">
+                <p class="dialogue__message__link">
+                  @har_adams wow it’s amazing, I want to buy a van and
+                  travelling next year 🚌
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="dialogue__message__divider">
+            <div class="dialogue__message__line"></div>
+            <p class="dialogue__message__date">Today</p>
+            <div class="dialogue__message__line"></div>
+          </div>
+          <div class="dialogue__message">
+            <img class="dialogue__message__photo" src="/images/f3.jpg" />
+            <div class="dialogue__message__info">
+              <div class="dialogue__message__header">
+                <p class="dialogue__message__name">Marie Jensen</p>
+                <p class="dialogue__message__time">11:54 AM</p>
+              </div>
+              <div class="dialogue__message__content">
+                <p class="dialogue__message__text">
+                  Working from a van in Australia isn’t feasible if you need
+                  internet. It may have improved over the last years but I spent
+                  some time in a camper van around Tasmania and internet was a
+                  real problem (and Tasmania is tiny compared to the rest of the
+                  country).
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="dialogue__message">
+            <img class="dialogue__message__photo" src="/images/f5.jpg" />
+            <div class="dialogue__message__info">
+              <div class="dialogue__message__header">
+                <p class="dialogue__message__name">Leo Gill</p>
+                <p class="dialogue__message__time">11:59 AM</p>
+              </div>
+              <div class="dialogue__message__content">
+                <p class="dialogue__message__link inline">@aa_da</p>
+                <p class="dialogue__message__text inline">
+                  What's the reason for the van? Saving money or just like to
+                  get outside? If you've got a stable source of income you could
+                  always do some short term Airbnbs + buy a truck/topper, build
+                  a platform in the back. That way you can always convert it
+                  back to a truck and sleep in an apartment if you want.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="message">
+          <div class="message__items">
+            <button class="message__items__add">
+              <img
+                class="message__items__add__icon"
+                src="/images/addIcon.png"
+              />
+            </button>
+            <button class="message__items__voice">
+              <img
+                class="message__items__voice__icon"
+                src="/images/voice.png"
+              />
+            </button>
+          </div>
+
+          <textarea
+            class="message__input"
+            rows="3"
+            placeholder="Message in #general"
+          >
+          </textarea>
+
+          <div class="message__emoji">
+            <button class="message__emoji__smile">
+              <img
+                class="message__emoji__smile__icon"
+                src="/images/smile.png"
+              />
+            </button>
+          </div>
+        </div>
+      </main>
+      <aside class="profile">
+        <img
+          class="profile__background"
+          src="/images/header__background.jpg"
+          alt="profile background"
+        />
+        <img class="profile__photo" src="/images/Amilia.png" />
+        <div class="profile__info">
+          <p class="profile__name">Amilia Luna</p>
+          <p class="profile__job">UI Designer</p>
+
+          <div class="profile__socials">
+            <button class="profile__social">
+              <img class="profile__social__media" src="/images/social1.png" />
+            </button>
+            <button class="profile__social">
+              <img class="profile__social__media" src="/images/social2.png" />
+            </button>
+            <button class="profile__social">
+              <img class="profile__social__media" src="/images/social3.png" />
+            </button>
+            <button class="profile__social">
+              <img class="profile__social__media" src="/images/social4.png" />
+            </button>
+          </div>
+          <div class="profile__button">
+            <button class="profile__button__message">Message</button>
+            <button class="profile__button__more">
+              <img
+                class="profile__button__more-pic"
+                src="/images/btnMore.png"
+              />
+            </button>
+          </div>
+          <div class="profile__contacts">
+            <div class="profile__contacts__data">
+              <p class="profile__contacts__auto">Username</p>
+            </div>
+            <p class="profile__contacts__personal">@amilia_lu</p>
+
+            <div class="profile__contacts__data">
+              <p class="profile__contacts__auto">Email</p>
+            </div>
+            <p class="profile__contacts__personal">a-luna@gmail.com</p>
+
+            <div class="profile__contacts__data">
+              <p class="profile__contacts__auto">Skype</p>
+            </div>
+            <p class="profile__contacts__personal">amiluna</p>
+            <div class="profile__contacts__data">
+              <p class="profile__contacts__auto">Timezone</p>
+            </div>
+            <p class="profile__contacts__personal">2:21 PM Local time</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </body>
 </html>
